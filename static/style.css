@@ -1,0 +1,39 @@
+body{
+    color: black;
+    background-image: url(/static/background.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.title{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.navbar-custom{
+    background-color: #004350;
+}
+.btn-primary{
+    width: 150px;
+    text-align: center;
+    margin-top: 30px;
+    border-width: 2px;
+    background-color: #d84e1c;
+    border-color: #004350;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form-control{
+    margin-top: 40px;
+    text-align: center;
+    width: 400px;;
+}
+
+p{
+    text-align: center;
+}

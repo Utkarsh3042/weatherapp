@@ -1,0 +1,13 @@
+{% extends "base.html"%}
+
+{%block content%}
+<h1 class="title">JalVayu Weather App</h1>
+    <form action="/result" method="POST">
+        <div class="container">
+            <input name="city" type="text" class="form-control" placeholder="Search Your City">
+        </div>
+        <div class="container">
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </div>
+    </form>
+{%endblock%}
